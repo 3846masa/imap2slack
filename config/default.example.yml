@@ -1,0 +1,9 @@
+slack:
+  token: YOUR_TEAM_TOKEN # https://api.slack.com/docs/oauth-test-tokens
+  channel: '#random'
+imap:
+  user: user@example.com
+  password: YOUR_PASSWORD
+  host: imap.example.com
+  port: 993
+  tls: true
