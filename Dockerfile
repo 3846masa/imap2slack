@@ -7,5 +7,4 @@ COPY package.json package.json
 RUN npm i
 COPY . .
 
-EXPOSE 25
 CMD ["node", "index.js"]
