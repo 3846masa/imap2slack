@@ -40,3 +40,4 @@ jspm_packages
 # Config
 config/*
 !config/*.example.*
+!config/custom-environment-variables.yaml

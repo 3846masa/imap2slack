@@ -1,6 +1,7 @@
 slack:
   token: YOUR_TEAM_TOKEN # https://api.slack.com/docs/oauth-test-tokens
   channel: '#random'
+  icon: ':email:'
 imap:
   user: user@example.com
   password: YOUR_PASSWORD

@@ -1,0 +1,10 @@
+slack:
+  token: SLACK_TOKEN
+  channel: SLACK_CHANNEL
+  icon: SLACK_ICON
+imap:
+  user: IMAP_USER
+  password: IMAP_PASSWORD
+  host: IMAP_HOST
+  port: IMAP_PORT
+  tls: IMAP_TLS

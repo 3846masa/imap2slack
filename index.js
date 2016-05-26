@@ -13,12 +13,15 @@ co(function * main () {
   console.log('connected')
 
   imap.on('new', (msg) => {
+    console.dir(msg, { depth: null })
+
     const postData = {
       username: 'Mailbot',
-      icon_emoji: ':email:',
+      icon_emoji: config.has('slack.icon') ? config.get('slack.icon') : ':email:',
       attachments: [{
+        fallback: msg.subject,
         title: msg.subject,
-        author_name: msg.from[0].name,
+        author_name: msg.from[0].address,
         text: msg.text
       }]
     }

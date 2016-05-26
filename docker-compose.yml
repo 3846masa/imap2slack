@@ -1,0 +1,15 @@
+main:
+  build: .
+  ports:
+    - "25:25"
+  restart: always
+  ## If you don't set default.yml, you should set envs.
+  # environment:
+  #   SLACK_TOKEN: XXXXXX
+  #   SLACK_CHANNEL: '#random'
+  #   SLACK_ICON: ':email:'
+  #   IMAP_USER: test@example.com
+  #   IMAP_PASSWORD: your_password
+  #   IMAP_HOST: imap.example.com
+  #   IMAP_PORT: 993
+  #   IMAP_TLS: true
