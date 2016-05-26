@@ -1,7 +1,5 @@
 main:
   build: .
-  ports:
-    - "25:25"
   restart: always
   ## If you don't set default.yml, you should set envs.
   # environment:
